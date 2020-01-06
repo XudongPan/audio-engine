@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="audio_package">
+      <UniqueIdentifier>{9CD05236-6361-600F-6DD0-16DCB17A452F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_package\source">
+      <UniqueIdentifier>{8A6F5E6E-316F-22D4-1547-253B04CB32E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_package\interface">
+      <UniqueIdentifier>{D45E0FBD-84A7-45CA-36AC-7A06BD0C9BF7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio_package\interface\fec_receiver.h">
+      <Filter>audio_package\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\interface\receive_statistics.h">
+      <Filter>audio_package\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\bitrate.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\byte_io.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\dtmf_queue.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\fec_private_tables_bursty.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\fec_private_tables_random.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\fec_receiver_impl.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\forward_error_correction.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\forward_error_correction_internal.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\producer_fec.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\receive_statistics_impl.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\ssrc_database.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\tmmbr_help.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\video_codec_information.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\vp8_partition_aggregator.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\interface\audio_pkg_header_parser.h">
+      <Filter>audio_package\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\interface\audio_pkg_payload_registry.h">
+      <Filter>audio_package\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\interface\audio_pkg_receiver.h">
+      <Filter>audio_package\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\interface\audio_pkg.h">
+      <Filter>audio_package\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\interface\audio_pkg_defines.h">
+      <Filter>audio_package\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_ctrl_pkg.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_ctrl_pkg_receiver.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_ctrl_pkg_receiver_help.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_ctrl_pkg_sender.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_ctrl_pkg_utility.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_format_video_generic.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_format_vp8.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_format_vp8_test_helper.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_header_extension.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_receiver_audio.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_receiver_impl.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_receiver_strategy.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_receiver_video.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_impl.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_config.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_sender.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_sender_audio.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_sender_video.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_utility.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_package\source\audio_pkg_history.h">
+      <Filter>audio_package\source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="audio_package\source\bitrate.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\dtmf_queue.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\fec_receiver_impl.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\forward_error_correction.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\forward_error_correction_internal.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\producer_fec.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\receive_statistics_impl.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\ssrc_database.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\tmmbr_help.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\vp8_partition_aggregator.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_ctrl_pkg.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_ctrl_pkg_receiver.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_ctrl_pkg_receiver_help.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_ctrl_pkg_sender.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_ctrl_pkg_utility.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_format_vp8.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_format_vp8_test_helper.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_header_extension.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_header_parser.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_payload_registry.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_receiver_audio.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_receiver_impl.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_receiver_strategy.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_receiver_video.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_impl.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_sender.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_sender_audio.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_sender_video.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_utility.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_package\source\audio_pkg_history.cc">
+      <Filter>audio_package\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

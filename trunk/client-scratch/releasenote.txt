@@ -1,0 +1,4 @@
+scratch a new package without codec
+just raw data wrapped in audioframe
+
+release interfaces AoEBase::start() and AoEBase::stop()
